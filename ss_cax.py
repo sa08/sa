@@ -6,7 +6,6 @@ import os
 from ultralytics import YOLO
 #image = cv2.imread("c:\1\x.jpg")
 
-#model = YOLO('yolo11n-cls.pt')
 model1 = YOLO('yolo11x.pt')
 model = YOLO(r'c:\1\best_bar8000_70.pt')
 
